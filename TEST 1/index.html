@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+<style>
+    body {
+        background: url(img/Crysis.jpg);
+        background-size: 1583px;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .left {
+        /* border: 2px solid rgb(206, 135, 135); */
+        display: inline-block;
+        position: absolute; 
+        left: 90px;
+        top: 8px;
+    }
+
+    .left .logo {
+        text-align: center;
+
+    }
+
+
+
+
+    .mid {
+         /* border: 2px solid rgb(17, 206, 64);  */
+        display: block;
+        width: 45%;
+        margin: 10px 220PX;
+        padding: 16px 73px;
+        /* background-image: url(IMG/MODEL8EVE.png); */
+
+    }
+
+
+
+
+
+    .right {
+        /* border: 2px solid rgb(206, 135, 135); */
+        display: inline-block;
+        right: 110px;
+        top: 25px;
+        position: absolute;
+      
+
+    }
+
+    .right .btn {
+
+        padding: 9px 20px;
+        color: blueviolet;
+        background-color: rgb(149, 160, 139);
+        margin: 3px 4px;
+        border-radius: 10px;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+
+    .right .btn:hover {
+        background-color: rgb(128, 133, 133);
+        cursor: pointer;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: rgb(2, 2, 2);
+        text-decoration: none;
+        padding: 12px 50px;
+        margin: 0px 0px;
+        /* border: 2px dotted red; */
+    }
+    .navbar{
+
+        padding: 8px 17px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(56, 161, 165);
+        text-decoration: underline;
+
+    }
+    .container{
+
+        /* border: 2px dotted blue; */
+        display: block;
+        width: 50%;
+        margin: 88px;
+        padding: 46px 0px;
+    }
+    .container h1{
+        padding:10px 56px ;
+        /* border: 2px solid blue; */
+        /* background-color: blueviolet; */
+        display: block;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .ipt{
+        width: 45%;
+    padding: 15px 15px;
+    margin: 5px 52px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color:#dee2ed;
+    color: white;
+    display: block;
+    }
+    .submitbtn{
+        background-color: #a1afbd;
+        margin:30px 200px ;
+        display: block;
+        padding: 14px 38px;
+        border-radius: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+</style>
+
+
+
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/LOGO.png" height="100px" alt="">
+            <div class="logo"><strong>ZOOZOO</strong></div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Contact Us </button><button class="btn">E-mail Now</button>
+        </div>
+    </header>
+    <div class="container">
+
+        <h1>JOIN US</h1>    
+        <form action="nophp.php">
+
+            <input type="text" class="ipt" placeholder="Enter Your Name">
+            <input type="email" class="ipt" placeholder="Enter Your E-mail">
+            <input type="number" class="ipt" placeholder="Enter Your Reg. No">
+            <input type="text" class="ipt" placeholder="Enter Your Locality">
+            <button  class="submitbtn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
